@@ -39,7 +39,7 @@ The first figure below shows the window of this pipeline. This window contains t
 
 In the SAMSEG.json file, the user can choose some option to run SAMEG:
 
-* "use_docker": choose to run the pipeline locally using the docker image (true) or locally installed FreeSurfer (default: false)
+* "use_docker": choose to run the pipeline locally using the docker image (true) or locally installed FreeSurfer (default: false). When using the docker option, do not forget to put your FreeSurfer license.txt in the "src" folder
 
 * "sss_slurm": precise the config file to run the pipeline on the SSS server (specific to UCLouvain members). If this tag does not exists (by default: "sss_slurm_no"), it will run the pipeline locally. To use this pipeline on remote server, change the name "sss_slurm_no" to "sss_slurm", and adapt the config file "SAMSEG_sss.json" for your specific slurm need. This works with a correct "server_info.json" config file in the BMAT home directory.
 
