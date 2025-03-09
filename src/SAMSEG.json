@@ -1,0 +1,7 @@
+{
+	"name": "SAMSEG",
+	"source_code": "SAMSEG.py",
+	"import_name": "SAMSEG",
+	"attr": "SAMSEG",
+	"add_info":{"use_docker":false, "sss_slurm_no":"SAMSEG_sss.json"}
+}

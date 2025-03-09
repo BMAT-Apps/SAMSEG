@@ -1,4 +1,4 @@
 {
 	"python_requirements":"requirements.txt",
-	"docker":{"docker":null,"tag":null}
+	"docker":{"docker":"freesurfer:7.3.2","tag":"freesurfer:7.3.2"}
 }
