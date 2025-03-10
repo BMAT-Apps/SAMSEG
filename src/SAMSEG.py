@@ -197,7 +197,7 @@ class HelpWindow(QWidget):
         self.resize(600, 400)
 
         # Load and convert markdown to HTML
-        with open(markdown_file, 'r') as file:
+        with open(markdown_file, 'r', encoding="utf-8", errors="replace") as file:
             markdown_content = file.read()
         html_content = markdown.markdown(markdown_content)
 
